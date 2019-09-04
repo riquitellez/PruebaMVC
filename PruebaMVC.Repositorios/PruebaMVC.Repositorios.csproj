@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaMVC.Datos\PruebaMVC.Datos.csproj" />
+    <ProjectReference Include="..\PruebaMVC.Servicios\PruebaMVC.Servicios.csproj" />
+    <ProjectReference Include="..\PruebaMVCDominio\PruebaMVC.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
